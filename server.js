@@ -27,7 +27,7 @@ app.get('/',(req,res)=>{
         createdAt : new Date(),
         description : 'Test description 3'
     }]
-    res.render('index' ,{
+    res.render('articles/index' ,{
         articles: articles
     })
 
